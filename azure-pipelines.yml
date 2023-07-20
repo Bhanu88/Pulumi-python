@@ -9,6 +9,9 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+variables:
+- group: Pulumi-dev
+
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
@@ -21,4 +24,5 @@ steps:
   inputs:
     azureSubscription: 'RE5 Demo'
     command: 'up'
+    loginArgs: 'pulumi login'
     stack: 'dev'
