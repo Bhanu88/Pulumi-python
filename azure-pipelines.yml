@@ -24,4 +24,5 @@ steps:
   inputs:
     azureSubscription: 'RE5 Demo'
     command: 'up'
+    args: '--yes'
     stack: 'dev'
