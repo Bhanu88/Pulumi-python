@@ -24,5 +24,4 @@ steps:
   inputs:
     azureSubscription: 'RE5 Demo'
     command: 'up'
-    loginArgs: 'pulumi login'
     stack: 'dev'
