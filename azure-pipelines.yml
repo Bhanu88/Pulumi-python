@@ -23,6 +23,6 @@ steps:
 - task: Pulumi@1
   inputs:
     azureSubscription: 'RE5 Demo'
-    command: 'up'
+    command: 'destroy'
     args: '--yes'
     stack: 'dev'
